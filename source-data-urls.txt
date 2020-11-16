@@ -1,0 +1,4 @@
+https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data
+https://public.opendatasoft.com/explore/dataset/us-zip-code-latitude-and-longitude/table/
+https://towardsdatascience.com/new-to-data-visualization-start-with-new-york-city-107785f836ab
+https://chriswhong.github.io/plutoplus/#
