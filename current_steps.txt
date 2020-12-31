@@ -1,8 +1,0 @@
-current choropleth map just shows where all airbnb locations in csv are at 
-and the respective avg price by zip code
-
-in order for map to show entirety of NYC, need to upload csv of lat/long boundaries by
-zip code and use that as 'df' instead of airbnb locations csv
-
-afterwards, will then need to bring in average airbnb lodging prices by zip into 'df',
-and then can use plotly.express to map out and color by avg price
