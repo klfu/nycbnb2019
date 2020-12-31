@@ -1,0 +1,19 @@
+for nyc_bnb.py:
+
+current choropleth map just shows where all airbnb locations in csv are at 
+and the respective avg price by zip code
+
+in order for map to show entirety of NYC, need to upload csv of lat/long boundaries by
+zip code and use that as 'df' instead of airbnb locations csv
+
+afterwards, will then need to bring in average airbnb lodging prices by zip into 'df',
+and then can use plotly.express to map out and color by avg price
+
+However, when replacing geojson from pluto_ziponly.geojson (PLUTO data downloader) with
+nyczipcodetabulationareas.geojson (nyc community portal) and running .py file,
+choropleth map showed fully instead of the scattered dots when using pluto_ziponly???
+
+probably an issue with pluto_ziponly geojson, where in order for map to display correctly,
+needed to create the choropleth map thru referencing bbl (lot codes) instead of by zip;
+polygon coordinates mapped for individual lots rather than for zip whereas the other
+geojson file coordinates were mapped specifically for zip
