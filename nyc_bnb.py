@@ -2,8 +2,10 @@ import pandas as pd
 import json
 import math
 import plotly.express as px
+# import chart_studio.plotly as py
 import numpy as np
 from sklearn import neighbors
+# py.sign_in('kevfu', '4xsOataCpbKE7oQwRAXh')
 
 """
 -was unable to pip install scikit-learn within the Udemy_PythonDSMLBootcamp venv
@@ -86,5 +88,7 @@ fig = px.choropleth(df2,
 fig.update_geos(fitbounds="locations", visible=False)
 fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 fig.show()
+fig.write_html("nyc_bnb.html", include_plotlyjs=True)
+# plot_url = py.plot(fig)
 
 # try committing geojson files to mapshaper to view what map looks like
