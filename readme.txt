@@ -8,4 +8,4 @@ This dataset maps zip code to cities based on latitude and longitude
 
 https://public.opendatasoft.com/explore/dataset/us-zip-code-latitude-and-longitude/table/
 
-other
+for all other sources used to help me bring the visualization to life, please refer to source-data-urls.txt
